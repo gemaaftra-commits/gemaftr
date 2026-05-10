@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>iPhone Store Indonesia</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-weight:bold;
+}
+
+nav{
+    background:#222;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.hero{
+    background:url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1200&auto=format&fit=crop') center/cover;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-shadow:2px 2px 5px black;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:55px;
+}
+
+.hero p{
+    font-size:24px;
+    margin:15px 0;
+}
+
+.btn{
+    background:#0071e3;
+    color:white;
+    padding:15px 30px;
+    border:none;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:40px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:30px;
+    color:black;
+    font-size:35px;
+}
+
+.about{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.video-section{
+    text-align:center;
+    margin-top:40px;
+}
+
+video{
+    width:80%;
+    border-radius:10px;
+}
+
+.products{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card{
+    background:white;
+    width:300px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card-body{
+    padding:20px;
+}
+
+.card-body h3{
+    color:black;
+    margin-bottom:10px;
+}
+
+.price{
+    color:#0071e3;
+    font-size:25px;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.buy-btn{
+    display:inline-block;
+    background:#0071e3;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    margin-top:20px;
+}
+
+table th, table td{
+    border:1px solid #ccc;
+    padding:15px;
+    text-align:center;
+}
+
+table th{
+    background:black;
+    color:white;
+}
+
+form{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    margin-top:30px;
+}
+
+form input,
+form select,
+form textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+form button{
+    padding:12px 25px;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.send{
+    background:#0071e3;
+    color:white;
+}
+
+.reset{
+    background:#f44336;
+    color:white;
+}
+
+.map{
+    margin-top:40px;
+}
+
+iframe{
+    width:100%;
+    height:400px;
+    border:0;
+    border-radius:10px;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+🔥 PROMO BULAN INI: DISKON 15% UNTUK PEMBELIAN iPHONE 15 PRO MAX + GRATIS AIRPODS! 🔥
+</header>
+
+<nav>
+<a href="#">BERANDA</a>
+<a href="#">TENTANG KAMI</a>
+<a href="#">VIDEO PROFIL</a>
+<a href="#">KATALOG PRODUK</a>
+<a href="#">PAKET CICILAN</a>
+<a href="#">HUBUNGI KAMI</a>
+</nav>
+
+<section class="hero">
+<h1>iPHONE STORE INDONESIA</h1>
+
+<p>"Teknologi Premium Untuk Gaya Hidup Modern"</p>
+
+<a href="#" class="btn">BELI SEKARANG</a>
+</section>
+
+<div class="container">
+
+<h2 class="section-title">Tentang Perusahaan</h2>
+
+<div class="about">
+
+<p>
+iPhone Store Indonesia didirikan pada tahun 2020 dengan tujuan
+menyediakan produk Apple original dengan kualitas terbaik dan harga
+terjangkau.
+</p>
+
+<br>
+
+<p>
+Kami menyediakan berbagai seri iPhone terbaru lengkap dengan garansi
+resmi, layanan terpercaya, dan pengiriman ke seluruh Indonesia.
+</p>
+
+<br>
+
+<h3>Visi Kami</h3>
+
+<ul>
+<li>Menjadi toko produk Apple terpercaya di Indonesia.</li>
+<li>Memberikan pelayanan terbaik kepada pelanggan.</li>
+</ul>
+
+<br>
+
+<h3>Misi Utama</h3>
+
+<ol>
+<li>Menyediakan produk Apple original 100%.</li>
+<li>Memberikan harga kompetitif dan promo menarik.</li>
+<li>Memberikan layanan cepat dan profesional.</li>
+</ol>
+
+</div>
+
+<div class="video-section">
+
+<h2 class="section-title">Company Video Profile</h2>
+
+<video controls>
+<source src="iphone.mp4" type="video/mp4">
+</video>
+
+</div>
+
+<h2 class="section-title">Katalog Produk Unggulan</h2>
+
+<div class="products">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?q=80&w=800&auto=format&fit=crop">
+
+<div class="card-body">
+
+<h3>iPhone 15 Pro Max</h3>
+
+<p>
+Chip A17 Pro, Titanium Design, Kamera 48MP.
+</p>
+
+<div class="price">Rp 22.999.000</div>
+
+<a href="#" class="buy-btn">Beli Sekarang</a>
+
+</div>
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?q=80&w=800&auto=format&fit=crop">
+
+<div class="card-body">
+
+<h3>iPhone 14 Pro</h3>
+
+<p>
+Dynamic Island, Kamera Pro, Performa Super Cepat.
+</p>
+
+<div class="price">Rp 18.999.000</div>
+
+<a href="#" class="buy-btn">Beli Sekarang</a>
+
+</div>
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1567581935884-3349723552ca?q=80&w=800&auto=format&fit=crop">
+
+<div class="card-body">
+
+<h3>iPhone 13</h3>
+
+<p>
+Baterai Tahan Lama dan Kamera Cinematic Mode.
+</p>
+
+<div class="price">Rp 12.999.000</div>
+
+<a href="#" class="buy-btn">Beli Sekarang</a>
+
+</div>
+</div>
+
+</div>
+
+<h2 class="section-title">Daftar Harga & Paket Cicilan</h2>
+
+<table>
+
+<tr>
+<th>Produk</th>
+<th>Harga</th>
+<th>Paket Cicilan</th>
+</tr>
+
+<tr>
+<td>iPhone 15 Pro Max</td>
+<td>Rp 22.999.000</td>
+<td>12x Rp 1.950.000</td>
+</tr>
+
+<tr>
+<td>iPhone 14 Pro</td>
+<td>Rp 18.999.000</td>
+<td>12x Rp 1.600.000</td>
+</tr>
+
+<tr>
+<td>iPhone 13</td>
+<td>Rp 12.999.000</td>
+<td>12x Rp 1.100.000</td>
+</tr>
+
+</table>
+
+<h2 class="section-title">Formulir Pemesanan</h2>
+
+<form>
+
+<label>Nama Lengkap</label>
+<input type="text" placeholder="Contoh: Budi Santoso">
+
+<label>Email</label>
+<input type="email" placeholder="budi@email.com">
+
+<label>Tujuan Pembelian</label>
+
+<select>
+<option>Beli Langsung</option>
+<option>Cicilan</option>
+</select>
+
+<label>Pilih Produk</label>
+
+<select>
+<option>-- Pilih iPhone --</option>
+<option>iPhone 15 Pro Max</option>
+<option>iPhone 14 Pro</option>
+<option>iPhone 13</option>
+</select>
+
+<label>Pesan Anda</label>
+
+<textarea rows="5" placeholder="Tuliskan pesanan Anda..."></textarea>
+
+<button class="send">Kirim Pesan</button>
+
+<button type="reset" class="reset">Hapus Data</button>
+
+</form>
+
+<div class="map">
+
+<h2 class="section-title">Lokasi Store Pusat</h2>
+
+<iframe
+src="https://maps.google.com/maps?q=jakarta&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</div>
+
+</div>
+
+<footer>
+iPhone Store Indonesia © 2026 <br>
+Final Project - Praktikum Pemrograman Web Dasar HTML
+</footer>
+
+</body>
+</html>
